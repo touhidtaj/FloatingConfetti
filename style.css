@@ -1,0 +1,91 @@
+#tt_wrapper * {
+    margin: 0;
+    padding: 0;
+}
+
+#dragEl_touhid {
+    position: absolute !important;
+    width: 200px !important;
+    height: 167px !important;
+    background-image: url('empty.png') !important;
+    z-index: 99;
+}
+
+#closeBtn_touhid {
+    position: absolute !important;
+    width: 24px !important;
+    height: 24px !important;
+    top: -5px !important;
+    right: -5px !important;
+    background-image: url('closeBtn.png') !important;
+    cursor: pointer !important;
+    z-index: 999;
+}
+
+#wrapper_touhid {
+    position: absolute !important;
+    width: 200px !important;
+    height: 167px !important;
+    overflow: hidden !important;
+    text-overflow: clip !important;
+}
+
+#canvas_touhid {
+    position: absolute !important;
+    width: 200px !important;
+    height: 167px !important;
+}
+#sc_wrapper_touhid {
+    width: 200px !important;
+    height: 167px !important;
+    position: absolute !important;
+    z-index: 10;
+}
+
+#shake_text_touhid {
+    position: absolute !important;
+    width: 200px !important;
+    height: 167px !important;
+}
+
+#cta_touhid {
+    position: absolute !important;
+    width: 200px !important;
+    height: 167px !important;
+}
+
+#next_touhid {
+    position: absolute !important;
+    width: 200px !important;
+    height: 167px !important;
+}
+
+
+#tt_wrapper {
+    width: 200px !important;
+    height: 167px !important;
+    position: fixed !important;
+    border: 0px solid #CCC !important;
+    -webkit-perspective: 1000px !important;
+    -moz-perspective: 1000px !important;
+    -o-perspective: 1000px !important;
+    perspective: 1000px !important;
+    z-index: 9999999 !important;
+    cursor: grab !important;
+    right: 14px;
+    border-radius: 5px !important;
+}
+
+.rct {
+    width: 200px !important;
+    height: 167px !important;
+    position: absolute !important;
+}
+
+.noDisplay {
+    display: none !important;
+}
+
+.noEvents{
+  pointer-events: none !important;
+}
